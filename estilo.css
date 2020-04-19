@@ -1,0 +1,207 @@
+body {background-color: #584f40; font-family: Verdana, Geneva, Tahoma, sans-serif;}
+
+#intrabody {
+    size: 100%;
+    margin-top: 08px;
+    line-height: 1.2;
+    font-family: arial;
+    background-color: rgb(255, 248, 242);
+    color: black;
+    text-indent: 0px;
+    font-size: medium;    
+    text-align: justify;
+    padding-top: 40px;
+    padding-bottom: 90px;
+    padding-left: 60px;
+    padding-right: 60px;
+    box-shadow: black 2px 2px 10px;
+}
+
+#imagemgeral {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    width: 100%;
+    height: 500px;
+    box-shadow: black 2px 2px 10px;
+}
+
+#titulo {
+    color: #000000;
+    font-size: large;
+    text-align: center;
+    background-color: rgb(255, 248, 242);
+    border: thin solid rgb(255, 248, 242);
+    margin: 10px;
+    box-shadow: black 2px 2px 10px;
+}
+
+a.navbar:link {color: black; text-decoration: none; font-weight: bold;}
+a.navbar:visited {color: black; text-decoration: none; }
+a.navbar:hover {color:white; text-decoration: none; }
+a.navbar:active {color:black; }
+
+a.noticias:link {color: black; text-decoration: none; font-weight: bold;}
+a.noticias:visited {color: black; text-decoration: none; }
+a.noticias:hover {color:white; text-decoration: none; }
+a.noticias:active {color:black; }
+
+a.external:link {color: rgb(0, 89, 255); text-decoration: none; }
+a.external:visited {color: rgb(0, 89, 255); text-decoration: none; }
+a.external:hover {color:rgb(0, 89, 255); text-decoration: underline; }
+a.external:active {color:black; }
+
+
+#menu {
+    letter-spacing: 1px;
+    background-color: rgb(170, 169, 169);
+    border: rgb(170, 169, 169) 05px solid;
+    padding: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    font-weight: bold;
+    margin-top: 05px;
+    margin-bottom: 05px;
+    margin-left: 0;
+    margin-right: 0;
+    box-shadow: black 2px 2px 10px;
+}
+
+#noticias {
+    font-family: Arial, Helvetica, sans-serif;
+    word-spacing: 5px;
+    font-size: large;
+    background-color:  rgb(248, 148, 34);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: block;
+    justify-content: space-evenly;
+    text-indent: 15px;
+    line-height: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 0px;
+    margin-right: 0px;
+    text-justify: center;
+    text-align: center;
+}
+
+.folha {
+    font-family: arial;
+    background-color: rgb(255, 248, 242);
+    color: black;
+    text-indent: 20px;
+    font-size: medium;    
+    text-align: justify;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-right: 60px;
+    padding-left: 60px;
+    box-shadow: black 2px 2px 10px;
+    text-indent: 0em;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.folha.flex-container {
+    background-color: black;
+
+}
+.flex-container {
+    background-color: black;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+
+  }
+ 
+.flex-container > div {
+    text-align: center;
+}
+
+#video {
+    column-width: auto;
+    height: 400px;
+    padding-top: 60px;
+}
+
+#image {
+    column-width: auto;
+    height: auto;
+    padding-top: 60px;
+}
+  
+.desc {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    line-height: 1.6;
+    text-align: center;
+    font-size: small;
+    letter-spacing: 2px;
+    padding-bottom: 0px;
+    padding-top: 15px;
+    letter-spacing: ;
+}
+
+.desc2 {
+    color: white;
+    line-height: 1.6;
+    text-align: center;
+    font-size: small;
+    letter-spacing: 2px;
+    padding-bottom: 60px;
+    padding-top: 15px;
+}
+
+.LI-profile-badge {
+    float: right;
+    padding-right: 80px;
+}
+
+#contato {
+    font-size:12pt;
+}
+
+input {
+    height: 30px;
+    width: 400px;
+}
+
+textarea {
+    height: 250px;
+    width: 500px;
+
+}
+
+#rodape {
+    background-color: rgb(170, 169, 169);
+    border: rgb(170, 169, 169) 05px solid;
+    padding: 10px;
+    justify-content: space-evenly;
+    font-weight: bold;
+    margin-top: 10px;
+    bottom: 0;
+    margin-left: 0;
+    margin-right: 0;
+    box-shadow: black 2px 2px 10px;
+    text-align: center;
+}
+
+/*gallery
+    display: flex;
+    border: black, 2px, solid;
+    flex: 50%;
+    justify-content: space-evenly;
+
+image
+    width: 450px;
+    height: 345px;
+
+desc
+    object-position: bottom;
+    font-size: smaller;
+    position: relative;
+    display: flex;
