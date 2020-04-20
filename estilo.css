@@ -1,4 +1,7 @@
-body {background-color: #584f40; font-family: Verdana, Geneva, Tahoma, sans-serif;}
+body { 
+    background-color: #584f40; 
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
 
 #intrabody {
     size: 100%;
@@ -51,7 +54,6 @@ a.external:link {color: rgb(0, 89, 255); text-decoration: none; }
 a.external:visited {color: rgb(0, 89, 255); text-decoration: none; }
 a.external:hover {color:rgb(0, 89, 255); text-decoration: underline; }
 a.external:active {color:black; }
-
 
 #menu {
     letter-spacing: 1px;
@@ -137,7 +139,7 @@ a.external:active {color:black; }
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
-  }
+}
  
 .flex-container > div {
     text-align: center;
@@ -196,6 +198,19 @@ textarea {
     width: 500px;
 }
 
+#intrabody.flex-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+#intrabody > video {
+    margin-top: 80px;    
+    height: 340px;
+    width: 520px
+    
+}
+
 #rodape {
     background-color: rgb(170, 169, 169);
     border: rgb(170, 169, 169) 05px solid;
@@ -209,19 +224,3 @@ textarea {
     box-shadow: black 2px 2px 10px;
     text-align: center;
 }
-
-/*gallery
-    display: flex;
-    border: black, 2px, solid;
-    flex: 50%;
-    justify-content: space-evenly;
-
-image
-    width: 450px;
-    height: 345px;
-
-desc
-    object-position: bottom;
-    font-size: smaller;
-    position: relative;
-    display: flex;

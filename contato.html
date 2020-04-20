@@ -1,17 +1,18 @@
 <html>
     <meta charset="UTF-8">
     <head>
-        <title>covid-19 boas notícias </title>
+        <title>coronga, artes & boas notícias</title>
         <link rel="stylesheet" href="estilo.css"/>
         <link rel="icon" type="image/png" href="coronafavicon.png">
     </head>
+    <body>
     <div id="menu">    
         <div><a href="index.html" class="navbar">início</a></div>
         <div><a href="sobre.html" class="navbar">sobre</a></div>
         <div><a href="contato.html" class="navbar">contato</a></div>
         <div><a href="fontes.html" class="navbar">saiba mais</a></div>
     </div>
-    <div id="intrabody">
+    <div id="intrabody" class="flex-container">
         <form name="contact" method="POST" data-netlify="true" action="contato2.html">
             <p>
               <label>Nome: </label>   
@@ -21,7 +22,7 @@
             </p>
             <p>
                 <label>E-mail: </label>
-              </p>
+            </p>
             <p>
               <label><input type="email" name="email"/></label>
             </p>
@@ -34,9 +35,12 @@
             <p>
               <button type="submit">Enviar</button>
             </p>
-          </form>
+        </form>
           <br>
-          <br>
+        <video autoplay muted>
+            <source src="stayhome-pacman.mp4" type="video/mp4">
+             Your browser does not support the video tag.
+        </video>
           <br>
           <br>
           <br>
@@ -47,4 +51,5 @@
     <div id="rodape">
         2020 &copy; lanamartires
     </div>
+    </body>
 </html>
