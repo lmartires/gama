@@ -28,24 +28,6 @@
             <div><a href="#item6" class="noticias">A criatividade dos cidadãos prolifera com o confinamento dentro de casa.</a></div>
             <div><a href="#item7" class="noticias">Lives: listas de transmissões ao vivo!</a></div>
         </div>
-        <button onclick="topFunction()" id="myBtn" title="Go to top">voltar</button>
-        <script>
-            var mybutton = document.getElementById("myBtn");
-            window.onscroll = function() {scrollFunction()};
-            
-            function scrollFunction() {
-              if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-                mybutton.style.display = "block";
-              } else {
-                mybutton.style.display = "none";
-              }
-            }
-            
-            function topFunction() {
-              document.body.scrollTop = 0;
-              document.documentElement.scrollTop = 0;
-            }
-            </script>  
         <div class="folha"><a id="item1"></a>
             <p>Esse é mais um daqueles bons exemplos que nascem em meio à pandemia de coronavírus. Designers brasileiros desenvolveram um projeto para fabricar protetores faciais a baixo custo e estão disponibilizando o projeto de graça para quem quiser produzir. A máscara do tipo Face Shield é um item importante para proteger os profissionais de saúde que trabalham no tratamento de pacientes com Covid-19 nas UTIs dos hospitais, mas é difícil comprar esse tipo de protetor porque está faltando no mercado.
             <br><br>“Com o projeto aberto, facilitamos a produção de forma descentralizada, permitindo que pequenas gráficas, empresas e universidades possam também fabricar. Além de fabricar, todos podem ainda contribuir e melhorar o projeto, conforme sua necessidade com um custo bastante acessível”, disse o arquiteto e coordenador do projeto, Leandro Vasconcelos. Para fazer os protetores, o custo fica em torno de R$ 6,00, com mão de obra e material, que é em PVC. Em dez minutos, com uma máquina de corte a laser, dá pra fazer 12 máscaras.</p>
@@ -73,7 +55,7 @@
                 <div class="flex-container">
                     <div>
                     <embed src="https://www.youtube.com/embed/kmGmt_VgzMA" id="video"/>
-                    <div class="desc">O jovem Aureo Deni, do Rio Grande do Norte, imita locutor esportivo<br>para reproduzir a rotina dos pais durante o isolamento.</div>
+                    <div class="desc">Aureo Deni, do Rio Grande do Norte, imita locutor esportivo<br>para reproduzir a rotina dos pais durante o isolamento.</div>
                     </div>
                     <div>
                         <image src="covidclassics-instagram.png" id="image" width="400" height="auto"/>
@@ -112,5 +94,23 @@
         <div id="rodape">
             2020 &copy; lanamartires
         </div>
+        <button onclick="topFunction()" id="myBtn" title="Go to top">voltar</button>
+        <script>
+            var mybutton = document.getElementById("myBtn");
+            window.onscroll = function() {scrollFunction()};
+            
+            function scrollFunction() {
+              if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                mybutton.style.display = "block";
+              } else {
+                mybutton.style.display = "none";
+              }
+            }
+            
+            function topFunction() {
+              document.body.scrollTop = 0;
+              document.documentElement.scrollTop = 0;
+            }
+        </script> 
     </body>
 </html>
